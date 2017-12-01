@@ -74,12 +74,13 @@ Another Terminal:
 
 Ganache provides a UI for a test network which can help with development and tracking of deployed/migrated transactions. 
 
+Intro to Ganache and instructions for download here: http://truffleframework.com/docs/ganache/using 
+
 Start ganache and pick network configurations under settings. Don't forget to restart the app.
 
 Now make sure your truffle.js or truffle-config.js points to the right network. In this project our network name is develop. 
 
 Now we can migrate to this specific network: `truffle migrate --network develop` 
-
 
 ## Features
 
